@@ -27,7 +27,7 @@
 }
 
 .body {
-    width: 95%;
+      width: 95%;
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -46,7 +46,9 @@
 
     /* height: 100vh;
     width: 80%; */
-    padding: 60px 0; /* padding: 30px 60px; // 60px 100px; */
+     /* padding: 30px 60px; // 60px 100px; // padding: 60px 0;*/
+    gap: 40px;
+    padding: 40px 0;
      
 }
 
@@ -174,11 +176,11 @@ input[type="text"]::placeholder {
     gap: 20px; /* 40px */
 }
 
-.mainConfig h1, span, input[type="text"]::placeholder, .mainConfig button {
+.mainConfig h1, .mainConfig span, input[type="text"]::placeholder, .mainConfig button {
     text-transform: uppercase;
 }
 
-.mainConfig h1, span, input[type="text"]::placeholder {
+.mainConfig h1, .mainConfig span, input[type="text"]::placeholder {
     color: var(--preto);
 }
 

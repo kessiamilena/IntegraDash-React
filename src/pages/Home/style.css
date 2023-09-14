@@ -189,7 +189,7 @@ input[type=range] {
     margin: 40px 0;
 }
 
-.centro-p-linha span, ul, li {
+.centro-p-linha span, .centro-p-linha ul, .centro-p-linha li {
     display: flex;
     color: var(--preto);
 }
