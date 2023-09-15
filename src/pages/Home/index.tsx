@@ -82,7 +82,7 @@ export default function Home() {
                         </div>
                     </div>
                 </aside> */}
-                <div className="inicio-resp">
+                {/* <div className="inicio-resp">
                     <img className="logo-mobile" src={ LogoMobile } alt="Logo Mobile"/>
                     <div className="boas-vindas">
                         <div className="bv">
@@ -119,7 +119,7 @@ export default function Home() {
                             <input className="grid-c" name='slide' type="radio" >
                             <input className="grid-d" name='slide' type="radio" >
                         <!-- </div> --> */}
-                        <div className="carrossel slider-content">
+                        {/*<div className="carrossel slider-content">
                             <div className="info slider-item">
                                 <div>
                                     <span>Produção</span>
@@ -211,7 +211,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <section className="principal-home">
 
                     {/* DIV INICIO LATERAL -> PARTE DE CIMA DA PÁGINA HOME 

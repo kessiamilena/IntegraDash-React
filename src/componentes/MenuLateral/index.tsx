@@ -17,7 +17,7 @@ import SairBranco from "../../assets/img/branco_sair_icone.png"
 import "./style.css"
 
 import { Link } from "react-router-dom"
-// import { Analises } from "../../pages/Analises"
+import { Analises } from "../../pages/Analises"
 // import { Link } from "react-router-dom"
 
 export default function MenuLateral() {
@@ -28,7 +28,7 @@ export default function MenuLateral() {
             <ul className="barra_navegacao">
                 <section className="navegacao_peginas">
                     <li className="list active">
-                        <Link to={"#"}>
+                        <Link to="Home">
                             <span className="icon">
                                 <img src={HomeAzul} alt="" />
                             </span>

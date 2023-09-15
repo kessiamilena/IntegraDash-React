@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    color: var(--branco);
 }
 
 :root {
@@ -23,16 +22,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .body {
       width: 95%;
-      height: 100%;
+      /* height: 100%; */
       display: flex;
       flex-direction: column;
+      justify-content: space-evenly;
       align-items: center;
   }
+
 
 /* MAIN */
 
@@ -47,15 +48,15 @@
     /* height: 100vh;
     width: 80%; */
      /* padding: 30px 60px; // 60px 100px; // padding: 60px 0;*/
-    gap: 40px;
-    padding: 40px 0;
+     gap: 30px;
+    /* padding: 40px 0; */
      
 }
 
 .mainConfig h1 {
     align-self: center;
 
-    font-size: 2.3em;
+    font-size: 1.5em;
     color: var(--preto);
 }
 
@@ -83,8 +84,8 @@
     border-radius: 40px;
     border: 1px solid #000;
 
-    width: 380px;
-    height: 340px; /* 400px */
+    width: 340px; /* width: 380px; */
+    height: 300px;  /* height: 340px;  400px */
 }
 
 .infos-perfil {
@@ -105,7 +106,7 @@
     text-align: center;
     color: black;
     
-    width: 378px;
+    width: 338px; /* width: 378px; */
     padding: 5px;
     /* margin-top: 40px; */
 }
@@ -190,8 +191,8 @@ input[type="text"]::placeholder {
     /* justify-content: flex-end; */
     justify-content: space-between;
     
-    width: 380px;
-    height: 160px; /* 180px */    
+    width: 340px; /* width: 380px; */
+    height: 140px; /* height: 160px; 180px     */
 
     border-radius: 40px;
     border: 1px solid #000;
@@ -203,11 +204,11 @@ input[type="text"]::placeholder {
 }
 
 .aparencia .op-radio:nth-child(1) {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .notificacoes .op-radio:nth-child(1) {
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 
@@ -215,6 +216,8 @@ input[type="text"]::placeholder {
     display: flex;
     flex-direction: row;
     gap: 15px;
+
+    font-size: 14px;
     /* padding-bottom: 30px; */
     align-self: center;
 }
@@ -226,6 +229,10 @@ input[type="text"]::placeholder {
     flex-direction: column;
 
     gap: 10px;
+}
+
+.tf div input {
+    margin-right: 5px;
 }
 
 /* .aparencia .op-radio div:nth-child(1), .tf span:nth-child(1) {

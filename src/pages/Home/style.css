@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    color: var(--branco);
 }
 
 body {
@@ -20,10 +19,16 @@ body {
     --azulBranco: #EAEFF6;
 }
 
+.body {
+    overflow-y: scroll;
+}
+
+
+
 .mainHome {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 80vh;
 }
 
 /* aside {
@@ -176,9 +181,9 @@ input[type=range] {
 /* TELA CENTRAL / PRINCIPAL */
 
 .principal-home {
-    overflow-y: scroll;
+    /* overflow-y: scroll;
     width: 80%;
-    padding: 60px 100px;
+    padding: 60px 100px; */
 }
 
 
@@ -233,6 +238,8 @@ input[type=range] {
 .centro-lados {
     display: flex;
     justify-content: space-between;
+
+    gap: 60px;
 }
 
 .lupa .lupa-input-centro {
@@ -476,6 +483,7 @@ input[type=range] {
 
 /* RESPONSIVIDADE */
 
+/*
 @media screen and (max-width: 769px) {
     body {
         background-color: var(--branco);
@@ -496,7 +504,7 @@ input[type=range] {
 
     aside {
         align-items: center;
-        /* border-radius: 20px; */
+        // border-radius: 20px; 
         border-radius: 20px 0 0 20px;
         padding-left: 0;
         padding-right: 0;
@@ -591,11 +599,11 @@ input[type=range] {
     
     .carrossel {
         display: flex;
-        /* width: 616px;
-        height: 478px;*/
+        // width: 616px;
+        //height: 478px;
         flex-direction: column; 
-        /* justify-content: center;
-        align-items: center; */
+        // justify-content: center;
+       // align-items: center;
         gap: 38px;
     }
     
@@ -686,7 +694,7 @@ input[type=range] {
         display: none;
     }
 
-    /* .grid-a {
+    ///* .grid-a {
         grid-area: 1 / 1 / 2 / 2;
     }
     .grid-b {
@@ -702,16 +710,16 @@ input[type=range] {
 
     /* SLIDER */
     
-    input[type=radio] {
+  /*  input[type=radio] {
         cursor: pointer;
     }
 
 
     .slider{
         display: grid;
-        /* flex-direction: column; */
+        /* flex-direction: column; 
         grid-template-columns: repeat(10, 1fr);
-        /* grid-column: none; */
+        /* grid-column: none; 
         grid-template-rows: repeat(1, 2fr);
         grid-column-gap: 0;
         grid-row-gap: 20px;
@@ -728,15 +736,15 @@ input[type=range] {
         flex-wrap: nowrap;
         flex-direction: row;
         max-width: 350px;
-        /* overflow: hidden; */
-        /* width: 100%; */
+        /* overflow: hidden; 
+        /* width: 100%; 
         transition: all 500ms ease;
         
     }
     
     .slider > .slider-content > .slider-item {
         flex: 0 0 auto;
-        /* width: 100%; */
+        /* width: 100%; 
     }
     
     .slider > input:nth-child(1):checked ~ .slider-content{
@@ -853,11 +861,11 @@ input[type=range] {
     .pc {
         text-align: right;
     }
-}
+} 
 
-/* max-width: 479px */
-
-
+/* max-width: 479px 
+*/
+/*
 @media screen and (max-width: 479px) {
 
     .mainHome {
@@ -888,7 +896,7 @@ input[type=range] {
 
     h1 {
         font-size: 15px;
-        /* width: 80px; */
+        // width: 80px; 
     }
 
     .bv {
@@ -1013,6 +1021,7 @@ input[type=range] {
     }
 
 }
+*/
 
 /* https://pt.stackoverflow.com/questions/265316/range-mudar-cor-da-barra-de-progresso-no-chrome */
 
@@ -1020,4 +1029,4 @@ input[type=range] {
 
 https://wallacemaxters.com.br/blog/63/como-fazer-um-carrossel-com-css-puro
 
-*/
+ */
